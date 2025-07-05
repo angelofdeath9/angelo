@@ -1,0 +1,81 @@
+body {
+  background-image: url('/assets/p.jpg');
+  background-size: cover;         /* Biar full layar */
+  background-position: center;    /* Tengah */
+  background-repeat: no-repeat;   /* Tidak diulang */
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 80px;
+  max-width: 600px;
+  margin: auto;
+}
+.branding {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.branding h1 {
+  font-size: 28px;
+  color: blue;
+  text-shadow: 0 0 10px red;
+}
+.branding p {
+  font-size: 20px;
+  color: #cccccc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logout {
+  background-color: #ff4e50;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card {
+  background: #cccccc;
+  border-left: 4px solid #2c2f36;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px red;
+}
+.card .icon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 10px;
+}
+.card h2 {
+  margin: 10px 0;
+}
+.card button {
+  background-color: #00c3ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.card button:hover {
+  background-color: #009ed6;
+}
+.status-box {
+  background-color: #ffa500;
+  border-left: 4px solid #00ffe1;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+}
